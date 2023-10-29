@@ -21,7 +21,7 @@ export default defineUserConfig({
     navbar: [
       {
         text: 'Home',
-        link: '/blog'
+        link: '/'
       }
     ]
   })
