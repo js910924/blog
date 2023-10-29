@@ -6,14 +6,14 @@ export default defineUserConfig({
   description: 'for sharing',
   head: [['link', { rel: 'icon', href: '/blog/images/logo.png' }]],
   base: '/blog/',
-  locales: {
-    '/': {
-      lang: 'zh-TW',
-    },
-    '/en/': {
-      lang: 'en-US',
-    }
-  },
+  // locales: {
+  //   '/': {
+  //     lang: 'zh-TW',
+  //   },
+  //   '/en/': {
+  //     lang: 'en-US',
+  //   }
+  // },
   theme: defaultTheme({
     logo: '/images/logo.png',
     repo: 'js910924/blog',
