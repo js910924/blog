@@ -4,18 +4,14 @@ export default defineUserConfig({
   lang: 'zh-TW',
   title: 'Chung Chih\'s Blog',
   description: 'for sharing',
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/blog/images/logo.png' }]],
   base: '/blog/',
   locales: {
     '/': {
-      lang: 'en-US',
-      title: 'Jasonnnnnnnn\'s Blog',
-      description: 'blog for articles'
-    },
-    '/zh/': {
       lang: 'zh-TW',
-      title: 'Jasonnnnnnnn\'s 部落格',
-      description: '紀錄文章之地'
+    },
+    '/en/': {
+      lang: 'en-US',
     }
   },
   theme: defaultTheme({
