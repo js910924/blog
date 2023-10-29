@@ -18,5 +18,11 @@ export default defineUserConfig({
     logo: '/images/logo.png',
     repo: 'js910924/blog',
     docsDir: 'docs',
+    navbar: [
+      {
+        text: 'Home',
+        link: '/blog'
+      }
+    ]
   })
 })
