@@ -2,6 +2,9 @@
 
 ## TODO
 - deploy from GitHub Action
-- sidebar
+- ~~sidebar~~
+  - will auto follow the TOC
 - support two languages
 - setup markdown config
+- about me
+- articles
