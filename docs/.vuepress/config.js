@@ -1,6 +1,10 @@
 import {defaultTheme, defineUserConfig} from "vuepress";
 
 export default defineUserConfig({
+  lang: 'zh-TW',
+  title: 'Chung Chih\'s Blog',
+  description: 'for sharing',
+  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   base: '/blog/',
   locales: {
     '/': {
@@ -9,7 +13,7 @@ export default defineUserConfig({
       description: 'blog for articles'
     },
     '/zh/': {
-      lang: 'zh-CN',
+      lang: 'zh-TW',
       title: 'Jasonnnnnnnn\'s 部落格',
       description: '紀錄文章之地'
     }
