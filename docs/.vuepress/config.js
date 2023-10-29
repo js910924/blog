@@ -22,6 +22,14 @@ export default defineUserConfig({
       {
         text: 'Home',
         link: '/'
+      },
+      {
+        text: 'Articles',
+        link: '/articles'
+      },
+      {
+        text: 'About Me',
+        link: '/about-me'
       }
     ]
   })
