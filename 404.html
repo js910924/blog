@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.67">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/blog/images/logo.png"><title>Chung Chih's Blog</title><meta name="description" content="for sharing">
+    <link rel="preload" href="/blog/assets/style-df398e21.css" as="style"><link rel="stylesheet" href="/blog/assets/style-df398e21.css">
+    <link rel="modulepreload" href="/blog/assets/app-b7b663f3.js"><link rel="modulepreload" href="/blog/assets/404.html-906704e3.js"><link rel="modulepreload" href="/blog/assets/404.html-3750987a.js"><link rel="prefetch" href="/blog/assets/index.html-3f79f6df.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-e63a5160.js" as="script"><link rel="prefetch" href="/blog/assets/first-article.html-baf6ce0c.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-216f3253.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-8d389b2e.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-0eb9369f.js" as="script"><link rel="prefetch" href="/blog/assets/first-article.html-cf8f1a28.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-b9ec2b1a.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/blog/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/blog/assets/app-b7b663f3.js" defer></script>
+  </body>
+</html>
