@@ -8,3 +8,4 @@
 - setup markdown config
 - about me
 - articles
+- use customize domain

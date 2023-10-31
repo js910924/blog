@@ -15,6 +15,9 @@ export default defineUserConfig({
   //   }
   // },
   theme: defaultTheme({
+    editLink: false,
+    contributors: false,
+    lastUpdated: false,
     logo: '/images/logo.png',
     repo: 'js910924/blog',
     docsDir: 'docs',
